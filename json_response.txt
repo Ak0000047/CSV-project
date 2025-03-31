@@ -1,0 +1,138 @@
+{
+    "parsed_data": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": "25"
+        },
+        {
+            "name": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "age": "30"
+        },
+        {
+            "name": "Invalid User",
+            "email": "invalid-email",
+            "age": "40"
+        },
+        {
+            "name": "Duplicate",
+            "email": "john.doe@example.com",
+            "age": "35"
+        },
+        {
+            "name": "Out of Range",
+            "email": "alex@test.com",
+            "age": "130"
+        },
+        {
+            "name": "Empty Name",
+            "email": "empty.name@example.com",
+            "age": "28"
+        },
+        {
+            "name": "",
+            "email": "missing.name@example.com",
+            "age": "40"
+        },
+        {
+            "name": "String Age",
+            "email": "string.age@example.com",
+            "age": "twenty"
+        },
+        {
+            "name": "Missing Age",
+            "email": "missing.age@example.com",
+            "age": ""
+        },
+        {
+            "name": "Missing Email",
+            "email": "",
+            "age": "29"
+        }
+    ],
+    "saved_records": [],
+    "failed_records": 10,
+    "rejected_records": [
+        {
+            "row": 1,
+            "error": {
+                "email": [
+                    "user with this email already exists."
+                ]
+            }
+        },
+        {
+            "row": 2,
+            "error": {
+                "email": [
+                    "user with this email already exists."
+                ]
+            }
+        },
+        {
+            "row": 3,
+            "error": {
+                "email": [
+                    "Enter a valid email address."
+                ]
+            }
+        },
+        {
+            "row": 4,
+            "error": {
+                "email": [
+                    "user with this email already exists."
+                ]
+            }
+        },
+        {
+            "row": 5,
+            "error": {
+                "age": [
+                    "Age value should be in between 0-120."
+                ]
+            }
+        },
+        {
+            "row": 6,
+            "error": {
+                "email": [
+                    "user with this email already exists."
+                ]
+            }
+        },
+        {
+            "row": 7,
+            "error": {
+                "name": [
+                    "This field may not be blank."
+                ]
+            }
+        },
+        {
+            "row": 8,
+            "error": {
+                "age": [
+                    "A valid integer is required."
+                ]
+            }
+        },
+        {
+            "row": 9,
+            "error": {
+                "age": [
+                    "A valid integer is required."
+                ]
+            }
+        },
+        {
+            "row": 10,
+            "error": {
+                "email": [
+                    "This field may not be blank."
+                ]
+            }
+        }
+    ]
+}
